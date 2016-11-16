@@ -1,1 +1,52 @@
-# Empty CSS file for your own CSS
+body {
+	margin-top: 70px;
+}
+
+nav {
+	padding: 0 20px;
+	line-height: 0;
+}
+.navbar-text {
+	color: white;
+}
+.navbar-nav.nav li a {
+	color: white;
+}
+.navbar-nav.nav li a:hover{
+	color: skyblue;
+}
+/*
+.jumbotron {
+	text-align: center;
+	background : url('../images/bg.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 500px;
+}
+*/
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.align-center{
+	text-align: center;
+}
+/* Banner */
+
+.banner img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+/* footer */
+.footerbg {
+	background-color: #101010;
+	color: white;
+}
+
+.footleft{
+	padding-left: 50px;
+}
+.footright {
+	padding-right: 50px;
+}
